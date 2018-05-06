@@ -11,7 +11,7 @@ var express = require('express')
 
 
 var app = express();
-var index = require('index');
+var index = require('./index');
 
 //configure the sessions with our application
 app.use(session({
