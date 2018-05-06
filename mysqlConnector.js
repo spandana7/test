@@ -13,7 +13,7 @@ function getConnection(){
     var connection = mysql.createPool(
         {
             connectionLimit : 500, // The maximum number of connections to create at once. https://github.com/mysqljs/mysql
-            host     : 'localhost',
+            host     : '10.250.181.81:3306',
             user     : 'root',
             password : 'cmpe272',
             database : 'cmpe272',
